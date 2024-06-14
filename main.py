@@ -5,7 +5,7 @@ from streamlit_option_menu import option_menu
 from connection import setup_database_connection
 from query import run_queries
 
-api_key = "AIzaSyDn6Q_q3-3mdDXL_1bLOU24Vfe3rCrjtg8"
+api_key = api_key
 
 # Initialize session state
 if 'connection' not in st.session_state:
