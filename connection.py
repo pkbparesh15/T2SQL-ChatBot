@@ -11,6 +11,7 @@ def setup_database_connection(api_key):
 
     # Database Connection Details
     st.header("Database Connection")
+    api_key = st.text_input("API Key")
     db_user = st.text_input("Database User")
     db_password = st.text_input("Database Password", type="password")
     db_host = st.text_input("Database Host")
