@@ -11,10 +11,10 @@ def setup_database_connection(api_key):
 
     # Database Connection Details
     st.header("Database Connection")
-    db_user = st.text_input("Database User", "root")
-    db_password = st.text_input("Database Password", "root", type="password")
-    db_host = st.text_input("Database Host", "localhost")
-    db_name = st.text_input("Database Name", "sakila")
+    db_user = st.text_input("Database User")
+    db_password = st.text_input("Database Password", type="password")
+    db_host = st.text_input("Database Host")
+    db_name = st.text_input("Database Name")
     
     
 
