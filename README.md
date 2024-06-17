@@ -1,9 +1,10 @@
 # T2SQL-ChatBot
-# Project Documentation
+
+## Project Documentation
 
 This documentation provides a comprehensive guide to setting up and using the project, which allows users to connect to a MySQL database and run natural language queries that are converted into SQL queries using the LangChain library and Google's PaLM model. The application is built using Streamlit, a powerful framework for creating web applications in Python.
 
-## Overview
+### Overview
 
 The project consists of three main components:
 
@@ -11,7 +12,7 @@ The project consists of three main components:
 2. **Run Natural Language Queries**: Provides an interface for users to enter queries in natural language, which are then converted to SQL queries and executed against the database.
 3. **Main Application**: Manages navigation between the setup and query pages and initializes the application state.
 
-## Project Structure
+### Project Structure
 
 The project contains the following files:
 
@@ -20,9 +21,9 @@ The project contains the following files:
 - `main.py`: The main script that combines the setup and query functionalities and handles page navigation.
 - `requirements.txt`: Lists the Python packages required to run the project.
 
-## Getting Started
+### Getting Started
 
-### Prerequisites
+#### Prerequisites
 
 Ensure you have the following installed:
 
@@ -34,4 +35,3 @@ Make sure that you have the following details for testing the Chatbot:
 
 - Google PaLM API key
 - Database Details: Username, Password, Hostname and Database Name
-- 
