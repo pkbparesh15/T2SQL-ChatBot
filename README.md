@@ -1,8 +1,6 @@
 # T2SQL-ChatBot
 
-## Project Documentation
-
-This documentation provides a comprehensive guide to setting up and using the project, which allows users to connect to a MySQL database and run natural language queries that are converted into SQL queries using the LangChain library and Google's PaLM model. The application is built using Streamlit, a powerful framework for creating web applications in Python.
+This project allows users to connect to a MySQL database and run natural language queries that are converted into SQL queries using the LangChain library and Google's PaLM model. The application is built using Streamlit, a powerful framework for creating web applications in Python.
 
 ### Overview
 
